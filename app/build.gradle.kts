@@ -14,4 +14,15 @@ android {
         versionCode = 1
         versionName = "1.0"
     }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+        }
+    }
+}
+
+dependencies {
+    implementation("androidx.core:core-ktx:1.17.0")
+    implementation("androidx.activity:activity-ktx:1.10.1")
 }
